@@ -8,7 +8,7 @@ int main() {
     }while (n <= 0 || n > 100);
     int *arr = malloc(sizeof(int) * n);
     if (arr == NULL) {
-        printf("Khong du bo nho");
+        printf("Error");
         return 1;
     }
     for (i = 0; i < n; i++) {

@@ -11,7 +11,7 @@ int main() {
 
     int *arr = (int *)malloc((n + 1) * sizeof(int));
     if (arr == NULL) {
-        printf("Khong du bo nho!\n");
+        printf("Error\n");
         return 1;
     }
 

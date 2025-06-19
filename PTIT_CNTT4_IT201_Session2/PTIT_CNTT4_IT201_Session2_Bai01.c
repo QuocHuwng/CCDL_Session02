@@ -15,7 +15,7 @@ int main() {
     } while (n <= 0 || n > 100);
     arr = (int *)malloc(n * sizeof(int));
     if (arr == NULL) {
-        printf("Khong du bo nho!\n");
+        printf("Error!\n");
         return 1;
     }
 
